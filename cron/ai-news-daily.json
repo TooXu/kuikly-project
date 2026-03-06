@@ -1,0 +1,14 @@
+{
+  "name": "AI 资讯日报",
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 9 * * *",
+    "tz": "Asia/Shanghai"
+  },
+  "payload": {
+    "kind": "systemEvent",
+    "text": "📰 AI 资讯日报时间到！运行：python3 /home/admin/.openclaw/workspace/scripts/ai-news-daily.py"
+  },
+  "sessionTarget": "main",
+  "enabled": true
+}

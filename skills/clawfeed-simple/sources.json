@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hacker News",
+    "type": "rss",
+    "url": "https://news.ycombinator.com/rss"
+  },
+  {
+    "name": "Reddit r/MachineLearning", 
+    "type": "rss",
+    "url": "https://www.reddit.com/r/MachineLearning/.rss"
+  },
+  {
+    "name": "TechCrunch AI",
+    "type": "rss", 
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+  },
+  {
+    "name": "GitHub Trending",
+    "type": "github_trending",
+    "config": {"language": "python"}
+  }
+]
